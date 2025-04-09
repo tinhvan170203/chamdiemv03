@@ -5,11 +5,13 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
     tentaikhoan: {
         type: String,
-        unique: true
+        unique: true,
+        required: true
     },
     madonvi: {
         type: String,
-        unique: true
+        unique: true,
+        required: true
     },
     nhom: String,
     matkhau: String,

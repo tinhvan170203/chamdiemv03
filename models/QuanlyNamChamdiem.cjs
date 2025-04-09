@@ -28,6 +28,8 @@ const quantrichamdiemSchema = new Schema({
     thoigianhethangiaitrinh: Date,
     thoigianhethanthamdinhlan1: Date,
     thoigianhethanthamdinhlan2: Date,
+    diemthuongtoida: Number,
+    diemphattoida: Number,
     trangthai: Boolean //
 }, { timestamps: true });
 

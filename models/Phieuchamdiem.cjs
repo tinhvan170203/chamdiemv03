@@ -55,7 +55,9 @@ const phieuchamdiemSchema = new Schema({
     diemphatthamdinhlan2: Number,
     yeucaugiaitrinhdiemthuong: Boolean,
     yeucaugiaitrinhdiemphat: Boolean,
-    nhomchucnang: String
+    nhomchucnang: String,
+    diemphattoida: Number, 
+    diemthuongtoida: Number
 }, { timestamps: true });
 
 const Phieuchamdiems = mongoose.model('Phieuchamdiems', phieuchamdiemSchema);

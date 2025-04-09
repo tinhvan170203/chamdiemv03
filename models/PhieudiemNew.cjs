@@ -37,6 +37,24 @@ const configPhieucham = new Schema({
                 ghichucuathamdinh2: String,
                 files: [String], //  files  de kiem chung
                 files_bosung: [String], //  files  de kiem chung bổ sung
+                diem_tinh_theo_cong_thuc: Boolean,
+                bieu_thuc_toan_hoc: {
+                    bien_su_dung: [{
+                        title: String,
+                        variable: String,
+                        value: Number, // giá trị biến của người dùng tự chấm
+                        value_thamdinh_lan1: Number,
+                        value_thamdinh_lan2: Number
+                    }], // danh sách các biến sử dụng ví dụ x,y ,z
+                    cong_thuc: [{
+                        text: String,
+                        phep_tinh_display: String, // biểu thức toán học hiển thị
+                        phep_tinh_cal: String, // biểu thức toán học để tính toán
+                        choice: Boolean,
+                        choice_thamdinh_lan1: Boolean,
+                        choice_thamdinh_lan2: Boolean
+                    }],
+                }
             }]
         }]
     }],
