@@ -16,10 +16,10 @@
   "name": "quanlydoanvien",
   "version": "1.0.0",
   "description": "phần mềm quản lý đoàn viên",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.cjs"
   },
   "author": "vũ văn tính",
   "license": "ISC",
