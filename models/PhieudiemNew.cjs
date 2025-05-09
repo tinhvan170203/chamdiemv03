@@ -51,7 +51,7 @@ const configPhieucham = new Schema({
                         phep_tinh_display: String, // biểu thức toán học hiển thị
                         phep_tinh_cal: String, // biểu thức toán học để tính toán
                         choice: Boolean,
-condition: String,
+                        condition: String,
                         choice_thamdinh_lan1: Boolean,
                         choice_thamdinh_lan2: Boolean
                     }],
