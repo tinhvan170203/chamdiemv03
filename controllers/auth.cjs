@@ -391,7 +391,7 @@ module.exports = {
 
       user.matkhau = matkhaumoi;
       await user.save();
-      await saveAction(req.userId.userId, `Thay đổi mật khẩu`)
+      // await saveAction(req.userId.userId, `Thay đổi mật khẩu`)
       res.status(200).json({ message: "Đổi mật khấu thành công. Vui lòng đăng nhập lại." })
     } catch (error) {
       console.log("lỗi: ", error.message);
